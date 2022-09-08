@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * programming
- *today is
- *just  cool
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
