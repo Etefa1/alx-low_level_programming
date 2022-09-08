@@ -1,8 +1,11 @@
-#include <stdio.h>
-int main(void){
-	/*programming today 
-	 * is just
-	 * cool*/
+#include <stdio.h>{
+/**
+ * programming
+ *today is
+ *just  cool
+ */
+int main(void)
+{
 puts("\n"Programming is like building a multilingual puzzle");
-return(0)
+return(0);
 }
