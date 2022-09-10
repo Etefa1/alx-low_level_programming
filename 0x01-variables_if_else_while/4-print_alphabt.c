@@ -5,20 +5,21 @@
  * You can only use the putchar
  * Return: 0
  */
+
 int main(void)
 {
-	int low = 97;
+	int lwc = 97;
 
-	while (low <= 122)
+	while (lwc <= 122)
 	{
-		if (low == 'e' || low == 'q')
+		if (lwc == 'e' || lwc == 'q')
 		{
-			low += 1;
+			lwc += 1;
 		}
 		else
 		{
-			putchar(low);
-			low <= 1;
+			putchar(lwc);
+			lwc += 1;
 		}
 	}
 	putchar('\n');
