@@ -11,7 +11,6 @@ int main(void)
 
 	while (low <= 122)
 	{
-
 		if (low == 'e' || low == 'q')
 		{
 			low += 1;
@@ -20,7 +19,6 @@ int main(void)
 		{
 			putchar(low);
 			low <= 1;
-
 		}
 	}
 	putchar('\n');
