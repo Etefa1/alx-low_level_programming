@@ -7,14 +7,13 @@
 
 int main(void)
 {
-int c = 0;
-
-char strg[] = "_putchar";
-for (; c < 8; c++)
-{
-_putchar(strg[c]);
-}
-
-_putchar ('\n');
-return (0);
-}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
