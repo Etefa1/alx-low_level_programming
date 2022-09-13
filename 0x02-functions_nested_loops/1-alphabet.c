@@ -5,17 +5,12 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-void print_alphabet(void);
+char i = 'a';
+for ( ; i <= 'z' ; i++)
+_putchar (i);
+
+_putchar ('\n');
 return (0);
-}
-{
-int x = 97;
-int i = 122;
-}
-{
-	while (x <= i; x++)
-		_putchar (x);
-	_putchar  ('\n');
 }
