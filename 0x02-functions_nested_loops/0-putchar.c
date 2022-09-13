@@ -1,22 +1,20 @@
-int _putchar(char c);
 #include "main.h"
-
 /**
- * main - check the code
+ * main - program that prints _putchar.
  *
- * return: always 0.
+ * Return: 0
  */
+
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+int c = 0;
 
+char strg[] = "_putchar";
+for (; c < 8; c++)
+{
+_putchar(strg[c]);
+}
+
+_putchar ('\n');
 return (0);
 }
