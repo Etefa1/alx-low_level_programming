@@ -1,7 +1,8 @@
+int _putchar(char c);
 #include "main.h"
 
 /**
- * main-check the code
+ * main - check the code
  *
  * return: always 0.
  */
