@@ -5,13 +5,12 @@
  * Return: int.
  */
 
-int _abs(int i)
+int print_last_digit(int i)
 {
+	i %= 10;
+
 	if (i < 0)
-	{
-		i = i * (-1);
-		return (i);
-	}
-	else
-		return (i);
+	i *= -1;
+	_putchar(i + '0');
+	return (i);
 }
