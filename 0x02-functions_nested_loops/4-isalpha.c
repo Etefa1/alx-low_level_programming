@@ -9,8 +9,9 @@ include "main.h"
 
 int _isalpha(int c)
 {
-if (c >= 97 && c <= 122 || c >= 97 && c <= 90)
-	return (1);
+if (c >= 97 && c <= 122)
+else if (c >= 97 && c <= 90)
+return (1);
 else
 return (0);
 }
