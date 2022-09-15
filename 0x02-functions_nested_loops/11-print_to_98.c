@@ -29,7 +29,3 @@ if (n == 98)
 }
 
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
