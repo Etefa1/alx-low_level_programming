@@ -1,15 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * add - adds two integers and returns the result
+ * @i: int to be added to j
+ * @j: int to be added to i
+ * Return: sum of i and j
  */
-int main(void)
-{	    int n;
+int add(int i, int j)
+{
+	int k;
 
-	        n = add(89, 9);
-		    printf("%d\n", n);
-		        return (0);
+	k = i + j;
+	return (k);
 }
