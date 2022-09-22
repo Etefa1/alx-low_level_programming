@@ -1,5 +1,5 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
+#include <string.h>
 
 /**
  * _strcat - function that cocatinates two strings.
