@@ -1,8 +1,8 @@
 #include "main.h"
-#include <string.h>
-
+#include<string.h>
+i
 /**
- * _strncpy- function that copies a string
+ * _strncpy - function that copies a string..
  * @src: cadena a copiar
  * @dest: destino de la cadena.
  * @n: number.
