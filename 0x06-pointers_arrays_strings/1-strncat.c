@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strcat- function that concatenates two strings.
+ * _strncat- function that concatenates two strings.
  *
  * @dest: pointer to destination char
  * @src: pointer to source char
@@ -11,6 +11,6 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-strcat(dest, src, n);
+strncat(dest, src, n);
 return (dest);
 }
