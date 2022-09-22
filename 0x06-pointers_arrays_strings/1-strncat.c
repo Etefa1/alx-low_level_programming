@@ -6,6 +6,7 @@
  *
  * @dest: pointer to destination char
  * @src: pointer to source char
+ * @n: number of bytes to recive.
  * Return: char
  */
 char *_strncat(char *dest, char *src, int n)
