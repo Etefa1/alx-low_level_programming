@@ -1,22 +1,25 @@
 #include "main.h"
-#include <stddef.h>
+
 /**
- * _strchr - locates a character in a string,
- * @s: string.
- * @c: character.
- * Return: first occurrence of the character.
- */
-char *_strchr(char *s, char c)
+  * _strspn - search a string for a set of bytes
+  * @s: source string
+  * @accept: accepted string
+  *
+  * Return: number of bytes in the init segment
+  */
+unsigned int _strspn(char *s, char *accept)
 {
-	for (; *s != '\0'; s++)
+	unsigned int i, j;
+
+	for (i = 0; s[i]; i++)
 	{
-	if (*s == c)
-		return (s);
+		for (j = 0; accept[j]; j++)
+		{
+			if (s[i] == accept[j])
+				break;
+		}
+		if (!accept[j])
+			break;
 	}
-	if (*s == c)
-	{
-		return (s);
-	}
-	else
-	return (NULL);
+	return (i);
 }
