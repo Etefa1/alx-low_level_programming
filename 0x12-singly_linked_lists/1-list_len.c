@@ -5,7 +5,7 @@
  * @h: singly linked list
  * Return: number of element in a linked list
  */
-size_t list_len(const List_t *h)
+size_t list_len(const list_t *h)
 {
 	int i;
 	for (i = 0; h; i++)
