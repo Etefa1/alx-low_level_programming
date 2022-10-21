@@ -3,7 +3,7 @@
 /**
  * print_list - print list of elements
  * @h: input
- * Return: number of Nodes
+ * Return: Number of Nodes
  */
 size_t print_list(const list_t *h)
 {
@@ -17,7 +17,7 @@ size_t print_list(const list_t *h)
 		{
 			return (1 + print_list(h->next));
 		}
-		return 1;
+		return (1);
 	}
-	return 0;
+	return (0);
 }
