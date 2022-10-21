@@ -1,14 +1,15 @@
 #include "lists.h"
 
 /**
- * list_line - number of nodes in a lists
+ * list_len - number of nodes in a list
  * @h: singly linked list
- * Return: number of element in a linked list
+ * Return: number of elements in a linked list
  */
 size_t list_len(const list_t *h)
 {
 	int i;
+
 	for (i = 0; h; i++)
 		h = h->next;
-	return i;
+	return (i);
 }
